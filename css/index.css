@@ -1,0 +1,65 @@
+body {
+ 
+	background-color: rgba(50,50,50,0.6);
+}
+
+.navbar-header>a > img{
+	text-align:center;
+	margin-top:0px;
+	text-align:center;
+	margin-top:0px;
+}
+
+.navbar-header>a > img:hover{
+	width:110px;
+	height: 45px;
+}
+a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #FFFFBB;
+	text-decoration: none;
+}
+
+
+
+.navbar-default {
+	background-color: rgba(50,50,50,0.6);
+	border-color: rgba(50,50,50,0.6);
+	margin:0px;
+
+}
+
+.navbar {
+	border-radius: 0px;
+	margin:0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #FFFFFF;
+	 font-size:24px;
+	 margin:0px;
+	 font-weight:700;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #FFFFBB;
+	 font-size:24px;
+	 font-weight:700;
+}
+}
+
+.navbar-default {
+	margin:0px;
+}
+
+.navbar .navbar-default{
+	margin:0px;
+	padding:0px;
+}
+.nav>a>img:hover{
+	width:65px;
+	height:43px;
+}

@@ -1,0 +1,300 @@
+body {
+    overflow:hidden;
+}
+
+.navbar {
+	z-index: 1500;
+}
+.navbar-default{
+	z-index: 1500;
+}
+.navbar, .container-fluid, .navbar-header, .collapse, .dropdown{
+	z-index: 1500;
+}
+.navbar-header>a > img{
+	text-align:center;
+	margin-top:0px;
+	text-align:center;
+	margin-top:0px;
+}
+
+.navbar-header>a > img:hover{
+	width:110px;
+	height: 45px;
+}
+a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #FFFFBB;
+	text-decoration: none;
+}
+
+
+
+.navbar-default {
+	background-color: rgba(50,50,50,0.6);
+	border-color: rgba(50,50,50,0.6);
+	margin:0px;
+
+}
+
+.navbar {
+	border-radius: 0px;
+	margin:0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #FFFFFF;
+	 font-size:24px;
+	 margin:0px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #FFFFBB;
+	 font-size:24px;
+}
+
+.navbar-default {
+	margin:0px;
+}
+
+.navbar .navbar-default{
+	margin:0px;
+	padding:0px;
+}
+
+.box{
+	background-color:rgba(0,0,0,0.4);
+	border-radius:15px;
+	border:solid 2px rgba(46,139,87);
+	width:100%;
+	height: 70%;
+	position:absolute;
+	top:23%;
+	
+}
+.box ul li{
+	font-size:32px;
+	font-weight:700;
+	color:#FFFFFF;
+	padding:5px;
+	text-align:left;
+}
+
+/*pdoto_profile*/
+/*.my_photo{
+	width:250px;
+	margin-top: 50px;
+}
+
+.my_photo-1{
+	width:180px;
+	text-align: center;
+	padding: 30px;
+	
+}
+
+.desen_team{
+	margin:10px 10px;
+	position: absolute;
+	top:30%;
+}
+
+.my_photo-2{
+	width:250px;
+	margin-top: -10px;
+}
+
+.position_id, .name_id {
+	font-size:18px;
+	font-weight:700;
+}*/
+.org_pic img{
+	width:70%;
+	height:46%;
+	margin-top:200px;
+}
+.container{
+	margin-top:220px;
+	text-align:center;
+}
+
+.carousel{
+	width:430px;
+	height: 441px;
+	left:50%;
+	margin-left: -225px;
+}
+
+.carousel-caption{
+	color:#000000;
+	font-size:18px;
+	font-weight:500;
+}
+
+.container{
+	text-align:center;
+}
+
+.container-1{
+	margin-top:200px;
+	position:absolute;
+	left:18%;
+	padding:15px;
+}
+
+#slider{
+	position: relative;
+	margin-top:130px;
+}
+/*st-container-----css*/
+
+.st-container{
+	position: absolute;
+	/*position:fixed;*/
+	width:100%;
+	height: 100%;
+	top:0;
+	left:0;
+}
+
+.st-container > input,.st-container > a{
+	position:fixed;
+	bottom: 0px;
+	width:25%;
+	cursor: pointer;
+	font-size:20px;
+	height: 36px;
+	line-height: 36px;
+}
+
+.st-container > input{
+	opacity: 0;
+	z-index: 1000;
+}
+
+.st-container > a{
+	z-index:10;
+	font-weight: 750;
+	background: rgba(67,205,128,0.8);
+	color: #fff;
+	text-align:center;
+	text-shadow: 1px 1px 1px rgba(151,24,64,0.2);
+}
+
+.st-container:before{
+	content:'';
+	position:fixed;
+	width:100%;
+	height: 36px;
+	background:rgba(67,205,128,0.8);
+	z-index:9;
+	bottom: 0;
+}
+
+#st-control-1, #st-control-1 + a{
+	left:0;
+}
+#st-control-2, #st-control-2 + a{
+	left:25%;
+}
+#st-control-3, #st-control-3 + a{
+	left:50%;
+}
+#st-control-4, #st-control-4 + a{
+	left:75%;
+}
+	
+.st-container > input:checked +a,
+.st-container > input:checked:hover{
+	background: rgba(46,139,87,0.8);
+}
+
+.st-container > input:checked + a:after,
+.st-container > input:checked:hover + a:after{
+	bottom:100%;
+	border:solid transparent;
+	content:'';
+	height: 0;
+	width:0;
+	position:absolute;
+	pointer-events:none;
+	border-bottom-color: rgba(46,139,87,0.8);
+	border-width: 20px;
+	left: 50%;
+	margin-left:-20px;
+}
+
+.st-container > input:hover +a{
+	background:rgba(84,255,159,0.8);
+}
+.st-container > input:hover + a:after{
+	border-bottom-color: rgba(84,255,159,0.8);
+}
+
+/*st-scroll----css*/
+
+.st-scroll, .st-panel{
+	position:relative;
+	width:100%;
+	height: 100%;
+}
+.st-scroll{
+	top:0;
+	left:0;
+	transition: all 0.6s ease-in-out;
+	
+	-webkit-transform: translate3d(0,0,0);
+	-webkit-backface-visibility:hidden;
+}
+
+.st-panel{
+	background: #fff;
+	overflow:hidden;
+}
+
+#st-control-1:checked ~ .st-scroll {
+	transform: translateY(0%);
+}
+#st-control-2:checked ~ .st-scroll {
+	transform: translateY(-100%);
+}
+#st-control-3:checked ~ .st-scroll {
+	transform: translateY(-200%);
+}
+#st-control-4:checked ~ .st-scroll {
+	transform: translateY(-300%);
+}
+
+
+.st-panel h2 {
+	color: #00000;
+	text-shadow: 1px 1px 1px rgba(151,24,64,0.2);
+	position: absolute;
+	font-size: 54px;
+	font-weight: 900;
+	width: 80%;
+	left: 10%;
+	text-align: center;
+	line-height: 50px;
+	margin: -70px 0 0 0;
+	padding: 0;
+	top: 20%;
+	-webkit-backface-visibility: hidden;
+}
+
+.st-color{
+	background-image: url(../images/desen_background.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	color: #fff;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+
+.st-container > a{
+	font-weight:700;
+	font-size:20px;
+}

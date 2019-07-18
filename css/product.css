@@ -1,0 +1,253 @@
+body {
+	background-image: url(../images/desen_background.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	color: #fff;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.navbar-header > a > img {
+	text-align: center;
+	margin-top: 0px;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.navbar-header > a > img:hover {
+	width: 110px;
+	height: 45px;
+}
+a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #FFFFBB;
+	text-decoration: none;
+}
+
+.navbar-default {
+	background-color: rgba(50,50,50,0.6);
+	border-color: rgba(50,50,50,0.6);
+	margin: 0px;
+}
+
+.navbar {
+	border-radius: 0px;
+	margin: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #FFFFFF;
+	font-size: 22px;
+	margin: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #FFFFBB;
+	font-size: 22px;
+}
+
+.navbar-default {
+	margin: 0px;
+}
+
+.navbar .navbar-default {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*---3D showcase css--*/
+#impress:not(.impress-not-supported)
+.step {
+	opacity: 0.4;
+}
+
+#impress .step {
+	width: 700px;
+	height: 600px;
+	position: relative;
+	margin: 0 auto;
+	-moz-transition: 1s opacity;
+	-webkit-transition: 1s opacity;
+	transition: 1s opacity;
+}
+
+#impress .step.active {
+	opacity: 1;
+}
+
+#impress h2 {
+	color: #444648;
+	position: absolute;
+	z-index: 10;
+}
+
+#impress p {
+	color: #27333f;
+	position: absolute;
+	z-index: 10;
+}
+
+.arrow {
+	width: 32px;
+	height: 54px;
+	background: url('../images/arrows.png') no-repeat;
+	position: fixed;
+	top: 50%;
+	margin-top: -27px;
+	cursor: pointer;
+	text-indent: -9999px;
+	overflow: hidden;
+	opacity: 0.8;
+	border: none !important;
+	text-decoration: none !important;
+	-moz-transition: 0.2s opacity;
+	-webkit-transition: 0.2s opacity;
+	transition: 0.2s opacity;
+}
+
+.arrow:hover {
+	opacity: 1;
+}
+
+#arrowLeft {
+	left: 45px;
+}
+
+#arrowRight {
+	right: 45px;
+	background-position: top right;
+}
+
+.step {
+	position: fixed;
+}
+/* Hide the arrows if impress is not supported */
+
+#impress.impress-not-supported + .arrow, #impress.impress-not-supported + .arrow + .arrow {
+	display: none;
+}
+/*--slide_1--*/
+
+#impress #SM {
+	width: 500px;
+	height: 465px;
+}
+/*#SM h2{
+ text-align:center;
+ width:100%;
+ margin-top:140px;
+ margin-left:-350px;
+ color: #FFFFFF;
+ }
+ #SM p{
+ font-size:22px;
+ left:290px;
+ line-height:1.6;
+ top:220px;
+ white-space:nowrap;
+ }*/
+#SM .w3-content {
+	margin-top: -40px;
+	width: 500px;
+	height: 470px;
+}
+#SM .mySlides {
+	border-radius: 15px;
+}
+#SM .w3-center {
+	position: absolute;
+	margin-left: -70px;
+	margin-top: 150px;
+	padding: 10px;
+	left: 46%;
+	top: 57%;
+}
+/*--slide_2--*/
+#impress #Chip-GL {
+	width: 700px;
+	height: 800px;
+}
+/*#Chip-GL h2{
+ text-align:center;
+ width:100%;
+ margin-top:15px;
+ }
+ #Chip-GL p{
+ font-size:22px;
+ left:290px;
+ line-height:1.6;
+ top:220px;
+ white-space:nowrap;
+ }*/
+#Chip-GL .w3-content_1 {
+	margin-top: 150px;
+	width: 500px;
+	height: 470px;
+	position: absolute;
+	left: 15%;
+}
+#Chip-GL .mySlides_1 {
+	border-radius: 15px;
+}
+#Chip-GL .w3-center_1 {
+	position: absolute;
+	top: 77%;
+	left: 39%;
+	padding: 5px;
+}
+
+/*--slide_3--*/
+#impress #Axial {
+	width: 500px;
+	height: 465px;
+}
+#Axial .w3-content_2 {
+	margin-top: 50px;
+	position: absolute;
+	width: 490px;
+	height: 230px;
+	left: 15%;
+}
+#Axial .mySlides_2 {
+	border-radius: 15px;
+}
+#Axial .w3-center_2 {
+	position: absolute;
+	top: 65%;
+	left: 32%;
+	padding: 5px;
+}
+
+/*--slide_4--*/
+#impress #Press {
+	width: 700px;
+	height: 800px;
+}
+#Press .w3-content_3 {
+	margin-top: 250px;
+	position: absolute;
+	left: 25%;
+}
+#Press .mySlides_3 {
+	border-radius: 15px;
+}
+#Press .w3-center_3 {
+	position: absolute;
+	top: 65%;
+	left: 39%;
+	padding: 5px;
+}
+/*--slide_5--*/
+/*#impress #TO-220 {
+	width: 700px;
+	height: 800px;
+}
+#TO-220 img {
+	margin-top: 280px;
+	margin-left: -60px;
+	border-radius: 15px;
+}
+*/
