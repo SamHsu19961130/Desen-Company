@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>equipment</title>
+		<meta name="description" content="">
+		<meta name="author" content="徐玉書">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="images/desen_mark.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/equipment.css" />
+	</head>
+
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"> <img alt="Brand" src="images/desen_mark.png" width="100" height="40"> </a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="history.html">關於德森</a>
+						</li>
+
+						<li>
+							<a href="qp_management.html">生產/品質管理</a>
+						</li>
+
+						<li>
+							<a href="product.html">產品</a>
+						</li>
+						<li>
+							<a href="equipment.html">儀器設備</a>
+						</li>
+						<li>
+							<a href="customer.html">主要客戶</a>
+						</li>
+						<li>
+							<a href="goal.html">公司目標與展望</a>
+						</li>
+						<li>
+							<a href="contact.html">聯絡我們</a>
+						</li>
+						<li>
+							<a href="equipment_eng.html"><img src="images/US.jpg"/></a>
+						</li>
+					</ul>
+
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+
+		<div class="main">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2>主要設備:</h2>
+						<ul>
+							<li>
+								自動化連續電鍍設備3套
+							</li>
+							<li>
+								水污染防治設備乙套
+							</li>
+							<li>
+								空氣污染防治設備乙套
+							</li>
+						</ul>
+						<h2>檢驗設備:</h2>
+						<ul>
+							<li>
+								德國製FISCHER X-Ray膜厚測試儀二台
+							</li>
+							<li>
+								Agilent Technologies製AA240原子吸收光譜儀(Varian)
+							</li>
+							<li>
+								1220 Infinity LC製高效液相層析儀
+							</li>
+							<li>
+								蒸氣老化儀
+							</li>
+							<li>
+								數字顯示器溫控錫爐二台
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h2 class="text-center">生產設備</h2>
+				<div class="column">
+					<img src="experimental_machine/plating_line.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				</div>
+				<div class="column">
+					<img src="experimental_machine/equip1.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+				</div>
+				<div class="column">
+					<img src="experimental_machine/water_equip1.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+				</div>
+				<div class="column">
+					<img src="experimental_machine/air_equip1.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+				</div>
+			</div>
+			
+			<div class="row_1">
+				<h2 class="text-center">檢驗設備</h2>
+				<div class="column_1">
+					<img src="experimental_machine/HPLC_1.jpg" onclick="openModal_1();currentSlide_1(1)" class="hover-shadow_1">
+				</div>
+				<div class="column_1">
+					<img src="experimental_machine/aas_1.jpg" onclick="openModal_1();currentSlide_1(2)" class="hover-shadow_1">
+				</div>
+				<div class="column_1">
+					<img src="experimental_machine/x-ray_4.jpg" onclick="openModal_1();currentSlide_1(3)" class="hover-shadow_1">
+				</div>
+				<div class="column_1">
+					<img src="experimental_machine/x-ray_1.jpg" onclick="openModal_1();currentSlide_1(4)" class="hover-shadow_1">
+				</div>
+				<div class="column_1">
+					<img src="experimental_machine/oven.jpg" onclick="openModal_1();currentSlide_1(5)" class="hover-shadow_1">
+				</div>
+				<div class="column_1">
+					<img src="experimental_machine/test_aging.jpg" onclick="openModal_1();currentSlide_1(6)" class="hover-shadow_1">
+				</div>
+				<div class="column_1">
+					<img src="experimental_machine/Tinstove_1.png" onclick="openModal_1();currentSlide_1(7)" class="hover-shadow_1">
+				</div>
+			</div>
+
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+
+					<div class="mySlides">
+						<div class="numbertext">
+							1 / 4
+						</div>
+						<img src="experimental_machine/plating_line.jpg" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">
+							2 / 4
+						</div>
+						<img src="experimental_machine/equip1.png" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">
+							3 / 4
+						</div>
+						<img src="experimental_machine/water_equip1.jpg" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">
+							4 / 4
+						</div>
+						<img src="experimental_machine/air_equip1.jpg" style="width:100%">
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+					<div class="caption-container">
+						<p id="caption"></p>
+					</div>
+
+					<div class="column">
+						<img class="demo" src="experimental_machine/plating_line.jpg" onclick="currentSlide(1)" alt="自動化電鍍設備">
+					</div>
+
+					<div class="column">
+						<img class="demo" src="experimental_machine/equip1.png" onclick="currentSlide(2)" alt="雙滾桶電鍍線">
+					</div>
+
+					<div class="column">
+						<img class="demo" src="experimental_machine/water_equip1.jpg" onclick="currentSlide(3)" alt="水汙染防治設備">
+					</div>
+
+					<div class="column">
+						<img class="demo" src="experimental_machine/air_equip1.jpg" onclick="currentSlide(4)" alt="空氣汙染防制設備">
+					</div>
+				</div>
+			</div>
+			
+			<div id="myModal_1" class="modal_1">
+				<span class="close_1 cursor_1" onclick="closeModal_1()">&times;</span>
+				<div class="modal-content_1">
+
+					<div class="mySlides_1">
+						<div class="numbertext_1">
+							1 / 7
+						</div>
+						<img src="experimental_machine/HPLC_1.jpg" style="width:100%">
+					</div>
+
+					<div class="mySlides_1">
+						<div class="numbertext_1">
+							2 / 7
+						</div>
+						<img src="experimental_machine/aas_1.jpg" style="width:100%">
+					</div>
+
+					<div class="mySlides_1">
+						<div class="numbertext_1">
+							3 / 7
+						</div>
+						<img src="experimental_machine/x-ray_4.jpg" style="width:100%">
+					</div>
+
+					<div class="mySlides_1">
+						<div class="numbertext_1">
+							4 / 7
+						</div>
+						<img src="experimental_machine/x-ray_1.jpg" style="width:100%">
+					</div>
+					
+					<div class="mySlides_1">
+						<div class="numbertext_1">
+						    5 / 7
+						</div>
+						<img src="experimental_machine/oven.jpg" style="width:100%">
+					</div>
+					
+					<div class="mySlides_1">
+						<div class="numbertext_1">
+						    6 / 7
+						</div>
+						<img src="experimental_machine/test_aging.jpg" style="width:100%">
+					</div>
+					
+					<div class="mySlides_1">
+						<div class="numbertext_1">
+						    7 / 7
+						</div>
+						<img src="experimental_machine/Tinstove_1.png" style="width:100%">
+					</div>
+
+					<a class="prev_1" onclick="plusSlides_1(-1)">&#10094;</a>
+					<a class="next_1" onclick="plusSlides_1(1)">&#10095;</a>
+
+					<div class="caption-container_1">
+						<p id="caption_1"></p>
+					</div>
+
+					<div class="column_1">
+						<img class="demo_1" src="experimental_machine/HPLC_1.jpg" onclick="currentSlide_1(1)" alt="HPLC高效液相層析儀">
+					</div>
+
+					<div class="column_1">
+						<img class="demo_1" src="experimental_machine/aas_1.jpg" onclick="currentSlide_1(2)" alt="AAS原子吸收光譜儀">
+					</div>
+
+					<div class="column_1">
+						<img class="demo_1" src="experimental_machine/x-ray_4.jpg" onclick="currentSlide_1(3)" alt="X-Ray膜厚測試儀">
+					</div>
+
+					<div class="column_1">
+						<img class="demo_1" src="experimental_machine/x-ray_1.jpg" onclick="currentSlide_1(4)" alt="X-Ray膜厚測試儀">
+					</div>
+					
+					<div class="column_1">
+						<img class="demo_1" src="experimental_machine/oven.jpg" onclick="currentSlide_1(5)" alt="烤箱">
+					</div>
+					
+					<div class="column_1">
+						<img class="demo_1" src="experimental_machine/test_aging.jpg" onclick="currentSlide_1(6)" alt="蒸氣老化儀">
+					</div>
+					
+					<div class="column_1">
+						<img class="demo_1" src="experimental_machine/Tinstove_1.png" onclick="currentSlide_1(7)" alt="數字顯示器溫控錫爐">
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			function openModal() {
+				document.getElementById('myModal').style.display = "block";
+			}
+
+			function closeModal() {
+				document.getElementById('myModal').style.display = "none";
+			}
+
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+				showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+				showSlides( slideIndex = n);
+			}
+
+			function showSlides(n) {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("demo");
+				var captionText = document.getElementById("caption");
+				if (n > slides.length) {
+					slideIndex = 1
+				}
+				if (n < 1) {
+					slideIndex = slides.length
+				}
+				for ( i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				for ( i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex - 1].style.display = "block";
+				dots[slideIndex - 1].className += " active";
+				captionText.innerHTML = dots[slideIndex - 1].alt;
+			}
+		</script>
+		
+		<script>
+			function openModal_1() {
+				document.getElementById('myModal_1').style.display = "block";
+			}
+
+			function closeModal_1() {
+				document.getElementById('myModal_1').style.display = "none";
+			}
+
+			var slideIndex_1 = 1;
+			showSlides_1(slideIndex_1);
+
+			function plusSlides_1(n) {
+				showSlides_1(slideIndex_1 += n);
+			}
+
+			function currentSlide_1(n) {
+				showSlides_1( slideIndex_1 = n);
+			}
+
+			function showSlides_1(n) {
+				var i;
+				var slides_1 = document.getElementsByClassName("mySlides_1");
+				var dots_1 = document.getElementsByClassName("demo_1");
+				var captionText_1 = document.getElementById("caption_1");
+				if (n > slides_1.length) {
+					slideIndex_1 = 1
+				}
+				if (n < 1) {
+					slideIndex_1 = slides_1.length
+				}
+				for ( i = 0; i < slides_1.length; i++) {
+					slides_1[i].style.display = "none";
+				}
+				for ( i = 0; i < dots_1.length; i++) {
+					dots_1[i].className = dots_1[i].className.replace(" active", "");
+				}
+				slides_1[slideIndex_1 - 1].style.display = "block";
+				dots_1[slideIndex_1 - 1].className += " active";
+				captionText_1.innerHTML = dots_1[slideIndex_1 - 1].alt;
+			}
+		</script>
+		
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>
